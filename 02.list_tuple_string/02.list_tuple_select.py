@@ -7,7 +7,6 @@
 
 
 list01 = [123, 123.123, 3.14, "hello", "world", False]
-tuple01 = (123, 3.14, 4.445, "hello", "kitty", True)
 
 # 索引(0, 1, 2, 3, .....)
 # [123, 123.123, 3.14, "hello", "world", False]
@@ -17,9 +16,6 @@ tuple01 = (123, 3.14, 4.445, "hello", "kitty", True)
 for i in range(len(list01)):
     print(list01[i])
 
-# 利用for循环把元组中的元素一一进行打印输出,遍历元组
-for j in range(len(tuple01)):
-    print(tuple01[j])
 
 # 输出list01中所有的数字
 for i in range(len(list01)):
@@ -50,10 +46,17 @@ the monitor messages:
 '''.format("80%", "40%", "30%"))
 
 
+tuple01 = (1, 3.14, 1, "hello", "kitty", True)
 
+# 利用for循环把元组中的元素一一进行打印输出,遍历元组
+for j in range(len(tuple01)):
+    print(tuple01[j])
 
+number = tuple01.count(1)
+print(number)
 
-
+index = tuple01.index(1)
+print(index)
 
 
 
