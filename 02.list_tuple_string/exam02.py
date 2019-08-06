@@ -15,9 +15,12 @@ date = int(input("请输入你的出生日子: "))
 print(zodiac[year % 12])
 
 for index in range(len(constellDate)):
-    if (month, date) > constellDate[index] and (month, date) < constellDate[index + 1]:
+    if (month, date) > (12, 22):
+        print(constellation[-1])
+        break
+    elif (month, date) > constellDate[index] and (month, date) < constellDate[index + 1]:
         print(constellation[index])
-    elif (month, date) < (1, 20):
+    else:
         print(constellation[-1])
         break
 
