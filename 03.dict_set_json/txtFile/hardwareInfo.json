@@ -1,0 +1,1 @@
+{"cpu": {"core": [2, 4, 8], "version": "core i7", "price": 5000}, "memory": {"size": [8, 16, 32], "HZ": "2133MHZ"}, "disk": {"size": [500, 1000, 10000]}}
