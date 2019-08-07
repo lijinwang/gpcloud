@@ -6,4 +6,9 @@
 # usage: file opera
 
 
+with open(file='./txtFile/king.txt', mode='r+', encoding='utf8') as file:
+    content = file.readline()
+    print(content)
+
+
 
