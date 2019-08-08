@@ -26,7 +26,7 @@ print(access, type(access))
 listA, dictA = [], {}
 for item in ips.items():
     listA.append(item[1])
-listA.sort(reverse=1)
+listA.sort(reverse=True)
 for values in listA:
     for item in ips.items():
         if values == item[1]:
